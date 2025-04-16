@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br" itemscope itemtype="https://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="QuantoÉ? &copy; 2025">
+    <meta name="description" content="Saiba o valor estimado da sua viagem por aplicativo, sujeito a variações e promoções internas.">
+    <title>QuantoÉ? - Saiba o valor estimado da sua viagem por aplicativo, sujeito a variações e promoções internas</title>
+    <link rel="stylesheet" href="public/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script type="module" src="./public/assets/js/main.js" defer></script>
+</head>
+<body style="font-family: 'Figtree', Arial, Helvetica, sans-serif; background-color: hsl(200, 18%, 97%);">
+    <div id="notification"></div>
+
+    <div id="root">
+        <div class="centered-container">
+            <h1 id="title">QuantoÉ?</h1>
+            <p id="summary">Saiba o valor estimado da sua viagem por aplicativo, <b>sujeito a variações e promoções internas.</b></p>
+
+            <form id="form-quantoé">
+                <div id="form__inputs">
+                    <input id="ponto-de-partida" class="form__input" type="text" placeholder="📍 Ponto de partida, ex: Rua, Número, Cidade">
+                    <input id="ponto-de-desembarque" class="form__input" type="text" placeholder="📍 Ponto de desembarque, ex: Rua, Número, Cidade">
+                </div>
+                <div id="form__extra">
+                    <button id="form__button-help">🫶 Ajude o QuantoÉ? a se manter</button>
+                    <div id="form__money-field">
+                        <input id="valor-minimo" class="form__money-input" type="text" placeholder="R$XXXX,XX" disabled>
+                        <input id="valor-maximo" class="form__money-input" type="text" placeholder="R$XXXX,XX" disabled>
+                    </div>
+                </div>
+            </form>
+
+            <p style="text-decoration: underline;"><small>Informe um ponto de partida e desembarque, após isso aperte o botão "Enter" do seu teclado!</small></p>
+        </div>
+        <div class="centered-container" style="text-align: left;">
+            <article>
+                <section>
+                    <h2>Como funciona isso?</h2>
+                    <p>
+                        Nós realizamos um cálculo partindo da quilometragem/distância do seu ponto de partida até o desembarque, considerando algumas questões como a taxa base de um aplicativo e algumas tarifas que as plataformas podem adicionar a mais devido a alguma dinâmica. Os valores normalmente são aproximados, mas não exatos. 
+                        <br><br>
+                        
+                        O QuantoÉ? possui uma proximidade com os valores mostrados em aplicativos como Uber e 99.
+                        <b>Certifique-se de analisar o preço de cada corrida antes de efetuar o pagamento.</b> 
+                    </p>
+                </section>
+                <section>
+                    <h2>Preciso pagar para utilizar?</h2>
+                    <p>
+                        Não, o serviço disponibilizado aqui é gratuito e seguro. Não armazenamos nenhuma informação. Entretanto, outros serviços que funcionam como ponte para nossa aplicação podem possuir outros termos de uso. Você pode analisá-los acessando o site <a href="https://nominatim.openstreetmap.org/ui/about.html" target="_blank" rel="external">Nominatim OpenStreetMap</a>.
+                    </p>
+                </section>
+                <section>
+                    <h2>E sobre os valores mostrados?</h2>
+                    <p>
+                        Como citado anteriormente, nosso site visa ajudar você a ter uma ideia de quanto irá gastar em uma corrida de um determinado local a outro. Contudo, isso não é uma garantia de exatidão dos valores, pois não podemos, e nem temos como, controlar a volatilidade do mercado e os preços de aplicações de terceiros, que podem envolver outros cálculos, além de benefícios externos como planos, promoções, etc.
+                        <br><br>
+                        Entretanto, o QuantoÉ? busca oferecer o valor mais aproximado possível, permitindo que você tenha uma base de quanto pagará por essa viagem. Vale ressaltar que, para viagens mais extensas — como aquelas que chegam a até 302 km —, nosso serviço pode não ser tão útil. Recomendamos o uso do QuantoÉ? para distâncias mais curtas.
+                    </p>
+                </section>
+            </article>
+        </div>
+        <hr>
+        <footer class="centered-container">
+            <p>QuantoÉ? &copy; Copyright 2025 - Todos os direitos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
