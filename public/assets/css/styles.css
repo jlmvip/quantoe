@@ -38,15 +38,11 @@
     padding: 0.8em; 
     width: 60%;
     border: 0;
-    background-color: hsl(209, 81%, 46%);
+    background-color: hsl(0, 0%, 75%);
     transition: background 0.2s ease-in;
     font-weight: bold;
     color: hsl(0, 0%, 100%);
     cursor: pointer;
-}
-
-#form__button-help:hover {
-    background-color: hsl(209, 79%, 37%);
 }
 
 #form__money-field {
